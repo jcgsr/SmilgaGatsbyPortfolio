@@ -28,7 +28,7 @@ const Jobs = () => {
   const { company, position, date, desc } = jobs[value]
   return (
     <section className="section jobs">
-      <Title title="experience" />
+      <Title title="experiência" />
       <div className="jobs-center">
         <div className="btn-container">
           {jobs.map((job, index) => {

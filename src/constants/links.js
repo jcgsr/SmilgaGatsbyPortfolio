@@ -6,17 +6,17 @@ const data = [
   },
   {
     id: 2,
-    text: "about",
+    text: "sobre",
     url: "/about/",
   },
   {
     id: 3,
-    text: "projects",
+    text: "projetos",
     url: "/projects/",
   },
   {
     id: 5,
-    text: "contact",
+    text: "contatos",
     url: "/contact/",
   },
 ]

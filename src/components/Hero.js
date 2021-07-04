@@ -11,10 +11,10 @@ const Hero = () => {
         <article className="hero-info">
           <div>
             <div className="underline"></div>
-            <h1>i'm jovane</h1>
+            <h1>eu sou jovane</h1>
             <h4>freelance web developer</h4>
             <Link to="/contact" className="btn">
-              contact me
+              entre em contato
             </Link>
             <div className="social-links">
               {socialLinks.map(link => {
@@ -29,7 +29,7 @@ const Hero = () => {
           </div>
         </article>
         <StaticImage
-          src="../assets/images/hero.svg"
+          src="../assets/images/programming.svg"
           alt="portfolio"
           className="hero-img"
           placeholder="blurred"
