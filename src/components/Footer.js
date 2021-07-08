@@ -19,7 +19,7 @@ const Footer = () => {
           })}
         </div>
         <h4>
-          copyright &copy; {new Date().getFullYear()} -<span> WebDev</span>{" "}
+          copyright &copy; {new Date().getFullYear()} -<span> Jovane</span>{" "}
           todos os direitos reservados
         </h4>
       </div>

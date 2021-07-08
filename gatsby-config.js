@@ -6,7 +6,14 @@
 
 module.exports = {
   /* Your site config here */
-
+  siteMetadata: {
+    title: "Portfólio de Jovane",
+    description: "Novo portfólio de Jovane desenvolvido em Gatsby e Strapi",
+    titleTemplate: `%s | Portfólio de Jovane`,
+    url: `https://jovane.netlify.app`,
+    twitterUsername: `@teufel8`,
+    image: `/jovane&diana.jpg`,
+  },
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,

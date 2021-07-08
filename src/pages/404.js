@@ -5,6 +5,8 @@ import Seo from "../components/Seo"
 const Error = () => {
   return (
     <>
+      <Seo title="Página Inexistente" />
+
       <main className="error-page">
         <error className="container">
           <h1>beco sem saída...</h1>

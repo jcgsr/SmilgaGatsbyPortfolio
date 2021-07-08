@@ -3,12 +3,18 @@ import { graphql } from "gatsby"
 import Seo from "../../components/Seo"
 const ProjectTemplate = ({ pageContext: { title }, data }) => {
   return (
-    <div>
+    <>
+      <Seo
+        title={data.strapiProject.title.toUppercase()}
+        description={data.strapiProject.description}
+        image={data.strapiProject.image.publicURL}
+      />
+
       <main className="project-template-page">
         <h2>{title}</h2>
         <p>{data.strapiProject.description}</p>
       </main>
-    </div>
+    </>
   )
 }
 

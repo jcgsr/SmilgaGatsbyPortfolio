@@ -10,6 +10,8 @@ const About = ({ data }) => {
   } = data
   return (
     <>
+      <Seo title="Sobre" />
+
       <section className="about-page">
         <div className="section-center about-center">
           <GatsbyImage
