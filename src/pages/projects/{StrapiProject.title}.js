@@ -7,7 +7,7 @@ const ProjectTemplate = ({ pageContext: { title }, data }) => {
       <Seo
         title={data.strapiProject.title.toUppercase()}
         description={data.strapiProject.description}
-        image={data.strapiProject.image.publicURL}
+        image={data.strapiProject.image.localFile.publicURL}
       />
 
       <main className="project-template-page">
