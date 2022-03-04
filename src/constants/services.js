@@ -1,5 +1,5 @@
 import React from "react"
-import { FaCode, FaAndroid } from "react-icons/fa"
+import { FaCode } from "react-icons/fa"
 import { HiTranslate } from "react-icons/hi"
 import { IoSchool } from "react-icons/io5"
 const services = [
